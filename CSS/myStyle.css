@@ -1,0 +1,247 @@
+/*
+This removes any odd styling from list items
+*/
+li{
+	list-style-type:none; 
+}
+
+/*
+This removed text decorations from links
+*/
+
+a{
+	text-decoration:none;
+}
+/*
+This sets the wrapper size and to the center
+*/
+#wrapper{
+	max-width:940px;
+	margin:0 auto;
+	padding:0 5%;
+	text-align: center;
+	
+}
+/*****************
+This sets the logo to be in the center
+******************/
+#logo{
+	text-align:center;
+	margin:0 auto;
+}
+/*
+This sets the size of Twitter logo
+*/
+#twitter{
+	width:50px;
+	height: 50px;
+}
+/*
+This sets the size of the LinkedIn Logo
+*/
+#linkedIn{
+	width:50px;
+	height:50px;
+}
+
+/*
+This sets the header
+background and border to green
+*/
+header{
+	background:#6ab47b;
+	border-color:#599a68;
+	
+}
+/*
+This sets the color of the header and changes some of the margin. 
+White headers
+*/
+header h1, header h2{
+	color:#fff;
+	margin:auto;
+	width:300px;
+}
+/*
+This sets the font style for h1
+*/
+h1{
+	font-family: 'Changa One',sans-serif;
+	margin:35px;
+	font-size:3em;
+	font-weight: normal;
+	line-height: .8em;
+	margin-top:10px;
+}
+/****
+This will set font styles for h2
+*/
+h2{
+	font-size:1.5em;
+	margin:-5px 0 0;
+	font-weight: normal;
+}
+/*
+This sets the background color of the nav bar
+Sets the background to green
+*/
+nav{
+	background:#599a68;
+}
+/*
+This is used to style the anchors
+also the visited anchors
+sets color to white
+*/
+nav a,nav a:visited {
+	color:#fff;
+}
+/*
+This is used to set the state of the current and hovered nav links
+sets the color to green
+*/
+nav a.current, nav a:hover{
+	color:#32673f;
+}
+/*
+This is the site body
+sets background to white
+sets text to gray
+*/
+body{
+	background-color:#fff;
+	color: #999;
+}
+/**
+This sets up the font of the body
+*/
+body{
+	font-family:'Open Sans', sans-serif;
+}
+/*****************
+Navigation
+*****************/
+nav{
+	text-align:center;
+	padding:10px 0;
+	margin: 20px 0 0;
+}
+/*****************
+Footer
+*****************/
+footer{
+	font-size:.75em;
+	text-align: center;
+	align-content: center;
+	padding-top:50px;
+	color:#ccc;
+	width:500px;
+	height:300px;
+	margin:0 auto;
+	clear:both;
+	max-width:100%;
+}
+
+footer img{
+	width:50px;
+	height:50px;
+}
+/****************
+anchor styles
+****************/
+img {
+	max-width: 100%;
+}
+/******************
+Page:Portfolio
+*******************/
+#gallery{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#gallery li{
+	float:left;
+	width:95%;
+	margin:2.5%;
+	color:#bdc3c7;
+}
+#gallery li a p{
+	margin:0;
+	padding:5%;
+	font-size:2.25em;
+	color:#bdc3c7;
+}
+/***************
+NAV
+**************/
+nav ul{
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+nav li{
+	display:inline-block;
+}
+nav a{
+	font-weight:800;
+	padding:15px 10px;
+}
+/**********
+RANDOM STUFF
+***********/
+#wrapper h2{
+	margin: 20px 0px;
+	font-size: 1.5em;
+	font-style:"Open Sans", sans-serif;
+	font-weight:bold;
+}
+/*********************
+ABOUT PAGE
+*****************/
+.profile-pic{
+	width:200px;
+	height:200px;
+	max-width:200px;
+	margin 0 auto 30px;
+	margin-top:50px;
+	border-radius:100%;
+	max-height: 50%;
+	
+}
+h3{
+	margin:0 0 1em 0;
+	margin-top:20px;
+	
+}
+/************************
+CONTACT PAGE
+************************/
+.contactInfo li{
+	align-content: center;
+	text-align: left;
+	margin:10px auto;
+}
+.contactInfo {
+align-content: center;
+width:300px;
+margin:0 auto;
+	font-size:.9em;
+}
+.contactInfo ul{
+	padding:0;
+}
+.contactInfo li.email a{
+	background-image: url('../img/email.png')
+}
+.contactInfo li.twitter a{
+	background-image: url(../img/blackTwitter.png)
+}
+.contactInfo a{
+	display:block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:0 0 0 30px;
+}

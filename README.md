@@ -6,3 +6,4 @@ Current features include
 -Links to github, twitter, email
 
 2015 Cole Michael Alban
+visit at www.colemalban.com
